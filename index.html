@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>BALVINDER SINGH - SERVER ADMINISTRATOR</title>
+
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- Material Design Icons -->
+		<link href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css" rel="stylesheet">
+		<!-- Font Awesome -->
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+		<!-- Ionicons -->
+		<link href="fonts/ionicons/css/ionicons.min.css" rel="stylesheet">
+		<!-- Owl Carousel -->
+		<link href="css/owl.carousel.css" rel="stylesheet">
+		<link href="css/owl.theme.default.css" rel="stylesheet">
+		<!-- Style.css -->
+		<link href="css/style.css" rel="stylesheet">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+	</head>
+	<body>
+
+		<!-- Search -->
+		<div class="search-overlay"></div>
+		<div class="search">
+			<a href="" class="search-close"><i class="md md-close"></i></a>
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-3">
+					<h4>Just Start Typing Text and Press Enter</h4>
+					<form class="search-form">
+						<input type="text" id="search" name="search" class="text-center" />
+					</form> <!-- end .search-form -->
+				</div> <!-- end .col-sm-6 -->
+			</div> <!-- end .row -->
+		</div> <!-- end .row -->
+		<!-- Slide Out -->
+		<div class="slide-out-overlay"></div>
+		<div class="slide-out">
+			<header class="slide-out-header clearfix">
+				<div class="clearfix">
+					<a href="" class="slide-out-close pull-left"><i class="md md-close"></i></a>
+					<a href="" class="open-search pull-right"><i class="md md-search"></i></a>
+					<a href="" class="slide-out-share pull-right"><i class="md md-more-vert"></i></a>
+				</div> <!-- end .clearfix -->
+				<!-- Popup -->
+				<div class="slide-out-popup">
+					<nav class="social-nav">
+						<ul class="list-unstyled">
+							<li><a href="https://www.facebook.com/bsingh.cs" target="_blank">Facebook</a></li>
+							<li><a href="https://github.com/voidead" target="_blank">Github</a></li>
+							<li><a href="https://www.instagram.com/bsdevgan" target="_blank">Instagram</a></li>
+							<li><a href="https://www.linkedin.com/in/bsdevgan" target="_blank">LinkedIn</a></li>
+							<li><a href="https://twitter.com/im_balvinder" target="_blank">Twitter</a></li>
+						</ul> <!-- end .list-unstyled -->
+					</nav> <!-- end .social-nav -->
+				</div> <!-- end .slide-out-popup -->
+				<div class="image"><img src="images/author.jpg" alt="alt text" class="img-responsive"></div>
+				<div class="content">
+					<h5>BALVINDER SINGH</h5>
+					<span>SERVER ADMINISTRATOR</span>
+				</div> <!-- end .content -->
+				<div class="text-right">
+					<a href="uploads/resume.pdf" target="_blank" class="button link-button white icon-left"><i class="md md-file-download"></i>Download Resume</a>
+				</div> <!-- end .text-right -->
+			</header> <!-- end .slide-out-header -->
+			<div class="slide-out-widgets">
+				<div class="slide-out-widget">
+					<h4>CONTACT ME</h4>
+					<form action="scripts/contact.php" method="post" class="form-horizontal contact-form">
+						<div class="form-group">
+							<label class="col-sm-3 control-label">Name</label>
+							<div class="col-sm-9">
+								<input type="text" class="contact-name" name="contact-name" />
+							</div> <!-- end .col-sm-9 -->
+						</div> <!-- end .form-group -->
+						<div class="form-group">
+							<label class="col-sm-3 control-label">Email</label>
+							<div class="col-sm-9">
+								<input type="email" class="contact-email" name="contact-email" />
+							</div> <!-- end .col-sm-9 -->
+						</div> <!-- end .form-group -->
+						<div class="form-group">
+							<label class="col-sm-3 control-label">Message</label>
+							<div class="col-sm-9">
+								<textarea name="contact-message" class="contact-message" rows="3"></textarea>
+							</div> <!-- end .col-sm-9 -->
+						</div> <!-- end .form-group -->
+						<div class="form-group">
+							<div class="col-sm-9 col-sm-offset-3">
+								<button type="submit" class="button solid-button purple">Send Message</button>
+							</div> <!-- end .col-sm-9 -->
+						</div> <!-- end .form-group -->
+						<div class="contact-loading alert alert-info form-alert">
+							<span class="message">Loading...</span>
+							<button type="button" class="close" data-hide="alert" aria-label="Close"><i class="fa fa-times"></i></button>
+						</div>
+						<div class="contact-success alert alert-success form-alert">
+							<span class="message">Success!</span>
+							<button type="button" class="close" data-hide="alert" aria-label="Close"><i class="fa fa-times"></i></button>
+						</div>
+						<div class="contact-error alert alert-danger form-alert">
+							<span class="message">Error!</span>
+							<button type="button" class="close" data-hide="alert" aria-label="Close"><i class="fa fa-times"></i></button>
+						</div>
+					</form> <!-- end contact-form -->
+				</div> <!-- end .slide-out-widget -->
+			</div> <!-- end .slide-out-widgets -->
+		</div> <!-- end .slide-out -->
+
+		<!-- Header -->
+		<header class="header">
+			<div class="top clearfix">
+				<a href="#section7" class="available"><i class="ion-ios-email-outline"></i><span>Available For Freelance</span></a>
+				<div class="right-icons">
+					<a href="" class="open-search header-open-search"><i class="md md-search"></i></a>
+					<a href="uploads/resume.pdf" target="_blank" class="download"><i class="md md-file-download"></i></a>
+					<a href="" class="share"><i class="md md-more-vert"></i></a>
+				</div> <!-- end .right-icons -->
+				<!-- Popup -->
+				<div class="popup">
+					<nav class="social-nav">
+						<ul class="list-unstyled">
+							<li><a href="https://www.facebook.com/bsingh.cs" target="_blank">Facebook</a></li>
+							<li><a href="https://github.com/voidead" target="_blank">Github</a></li>
+							<li><a href="https://www.instagram.com/bsdevgan" target="_blank">Instagram</a></li>
+							<li><a href="https://www.linkedin.com/in/bsdevgan" target="_blank">LinkedIn</a></li>
+							<li><a href="https://twitter.com/im_balvinder" target="_blank">Twitter</a></li>
+						</ul> <!-- end .list-unstyled -->
+					</nav> <!-- end .social-nav -->
+				</div> <!-- end .popup -->
+			</div> <!-- end .top -->
+			<div class="bottom clearfix">
+				<div class="title"><a href="index.html">BALVINDER SINGH</a></div>
+				<div class="header-action-button-wrapper">
+					<a href="" class="header-action-button action-button"><i class="md md-add"></i></a>
+				</div> <!-- end .header-action-button-wrapper -->
+				<a href="" class="responsive-menu-open">Menu <i class="fa fa-bars"></i></a>
+				<nav class="main-nav">
+					<ul class="list-unstyled">
+						<li class="active"><a href="#section1">Home</a></li>
+						<li><a href="#section2">About</a></li>
+						<li><a href="#section3">Skill</a></li>
+						<li><a href="#section4">Experience</a></li>
+						<li><a href="#section5">Education</a></li>
+						<li><a href="#section6">Freelance</a></li>
+						<li><a href="#section7">Contact</a></li>
+					</ul>
+				</nav> <!-- end .main-nav -->
+			</div> <!-- end .bottom -->
+		</header> <!-- end .header -->
+		<div class="responsive-menu">
+			<a href="" class="responsive-menu-close">Close <i class="ion-android-close"></i></a>
+			<nav class="responsive-nav"></nav> <!-- end .responsive-nav -->
+		</div> <!-- end .responsive-menu -->
+
+		<!-- Section Navigation -->
+		<div class="section-nav">
+			<nav class="section1">
+				<a href="#section2" class="forward"><i class="md md-chevron-right"></i></a>
+				<a href="#section1" class="backward"><i class="md md-chevron-left"></i></a>
+			</nav>
+		</div> <!-- end .section-nav -->
+
+		<!-- Sections -->
+		<div class="sections">
+			<div class="sections-wrapper clearfix">
+
+				<!-- Home -->
+				<section id="section1" class="no-padding-bottom active">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-7 vertical-center padding-fix">
+								<h2>SERVER ADMINISTRATOR<sup>+</sup> LINUX<sup>+</sup> WINDOWS<sup>+</sup> CLOUD<sup>+</sup></h2>
+								<p style="text-align:justify;">Hello, I am Balvinder Singh - Server Administrator. I possess skills that are mix of Server Administrator (Linux / Windows) and Development with capabilities in web development, web hosting and cloud strategy. I FOCUS ON SECURITY, ENVIRONMENT SETUP. I care about is how i deliver work within low cost. My specialty lies in Hosting Environment Setup, Cloud Environment Setup (AWS/Google), Security, Malware Expert, Automation, Deployment, Mail Server etc.</p>
+								<p class="button-row"><a href="" class="button solid-button white">Hire Me Now</a><a href="uploads/resume.pdf" class="button solid-button purple" target="_blank">Download CV</a></p>
+							</div> <!-- end .col-sm-7 -->
+							<div class="col-sm-5 vertical-center">
+								<img src="images/author.jpg" alt="man" class="img-responsive section-img">
+							</div> <!-- end .col-sm-5 -->
+						</div> <!-- end .row -->
+					</div> <!-- end .container -->
+				</section> <!-- end #section1 -->
+
+				<!-- About -->
+				<section id="section2">
+					<div class="container">
+						<h2>About Me</h2>
+						<div class="row">
+							<div class="col-sm-3">
+								<img src="images/author.jpg" alt="man" class="img-responsive section-img">
+							</div> <!-- end .col-sm-3 -->
+							<div class="col-sm-9">
+								<h3 class="small-margin-bottom">BALVINDER SINGH - SERVER ADMINISTRATOR</h3><br />
+								<p style="text-align:justify;">Hello, I am BALVINDER SINGH – A SYSTEM ADMINISTRATOR with 5+ years of experience  in Linux / Windows with capabilities in web development, web hosting and cloud strategy. I FOCUS ON SECURITY, ENVIRONMENT SETUP. I care about is how i deliver work within low cost. My specialty lies in Hosting Environment Setup, Cloud Environment Setup (AWS/Google), Security, Malware Expert, Automation, Deployment, Mail Server etc.</p>
+								<p align="justify"><strong>KEY RESPONSIBILITY AREAS</strong></p>
+								<ul>
+									<li align="justify">System administration (Linux / Windows)</li>
+									<li align="justify">Security Specialist</li>
+									<li align="justify">Cloud Administration (AWS, Google Cloud etc.)</li>
+									<li align="justify">Web Hosting</li>
+									<li align="justify">Web Development</li>
+									<li align="justify">Install &amp; configure any open source / paid hosting panel</li>
+									<li align="justify">WHM/Cpanel &amp; Plesk</li>
+									<li align="justify">Webmin/Virtualmin, Vestacp, Zpanel/Sentora etc.</li>
+									<li align="justify">Malware Removal &amp; Security Expert</li>
+									<li align="justify">Bash/Shell Scripting</li>
+									<li align="justify">DNS Management</li>
+									<li align="justify">Backup Management</li>
+									<li align="justify">SSL Certificates</li>
+									<li align="justify">Firewall Setup</li>
+									<li align="justify"><span>Performance&nbsp;&amp; Optimization</span></li>
+									<li align="justify">Server Monitoring</li>
+									<li align="justify">Mysql/Mariadb Optimization</li>
+									<li align="justify">IIS &amp; Sql Server Setup &amp; Configure</li>
+									<li align="justify">OpenVpn, VNC Setup</li>
+									<li align="justify">AWS (EC2, Cloudfront, LB, ElasticBeanstalk, RDS, CDN, Certificate Management, Route 53 etc.)</li>
+									<li align="justify">Virtualization (<span>VMware VSphere Esxi &amp; Xen Server)</span></li>
+								</ul>
+								<div class="signature"><img src="images/signature.png" alt="signature" class="img-responsive"></div>
+								<ul class="list-unstyled text-uppercase">
+									<li><b>Date Of Birth :</b> 20 Jan 1991</li>
+									<li><b>Phone :</b> +91-9636922286</li>
+									<li><b>Email :</b><a href="mailto:bsingh.cs@gmail.com"> bsingh.cs@gmail.com</a></li>
+									<li><b>Address :</b> NEAR BHAGAT SINGH CHOWK, WARD NO. 13, SADUL SHAHAR, SRI GANGANAGAR, RAJASTHAN, INDIA. PIN CODE: 335062</li>
+									<li><b>Website :</b><a href="https://balvinder.linuxtweaks.in"> balvinder.linuxtweaks.in</a></li>
+								</ul> <!-- end .list-unstyled -->
+								<div class="spacer"></div>
+								<h3>What I'm Doing</h3>
+								<div class="row">
+									<div class="col-sm-4">
+										<div class="service">
+											<div class="icon"><i class="ion-monitor"></i></div>
+											<h5>SERVER ADMINISTRATION</h5>
+										</div> <!-- end .service -->
+									</div> <!-- end .col-sm-4 -->
+									<div class="col-sm-4">
+										<div class="service">
+											<div class="icon"><i class="ion-iphone"></i></div>
+											<h5>WEB DEVELOPMENT</h5>
+										</div> <!-- end .service -->
+									</div> <!-- end .col-sm-4 -->
+									<div class="col-sm-4">
+										<div class="service">
+											<div class="icon"><i class="ion-trophy"></i></div>
+											<h5>CLOUD COMPUTING</h5>
+										</div> <!-- end .service -->
+									</div> <!-- end .col-sm-4 -->
+								</div> <!-- end .row -->
+							</div> <!-- end .col-sm-9 -->
+						</div> <!-- end .row -->
+					</div> <!-- end .container -->
+				</section> <!-- end #section1 -->
+
+				<!-- Skills -->
+				<section id="section3">
+					<div class="container">
+						<h2>My Skills Values</h2>
+						<div class="row">
+							<div class="col-sm-6">
+								<h4>Technical Skills</h4>
+								<label class="progress-bar-label">SYSTEM ADMINISTRATION</label>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100">
+										<span>99%</span>
+									</div> <!-- end .progress-bar -->
+								</div> <!-- end .progress -->
+								<label class="progress-bar-label">SECURITY SPECIALIST</label>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+										<span>95%</span>
+									</div> <!-- end .progress-bar -->
+								</div> <!-- end .progress -->
+								<label class="progress-bar-label">CLOUD ADMINISTRATION</label>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+										<span>95%</span>
+									</div> <!-- end .progress-bar -->
+								</div> <!-- end .progress -->
+								<label class="progress-bar-label">WEB HOSTING</label>
+								<div class="progress">
+									<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+										<span>90%</span>
+									</div> <!-- end .progress-bar -->
+								</div> <!-- end .progress -->
+							</div> <!-- end .col-sm-6 -->
+							<div class="col-sm-6">
+								<h4>Knowledge</h4>
+								<div class="row">
+									<div class="col-sm-6">
+										<ul class="list-icons purple bold-list">
+											<li><i class="md-arrow-forward"></i>HOSTING ADMINISTRATION</li>
+											<li><i class="md-arrow-forward"></i>INSTALL & CONFIGUR</li>
+											<li><i class="md-arrow-forward"></i>WHM/CPANEL & PLESK</li>
+											<li><i class="md-arrow-forward"></i>FIREWALL SETUP</li>
+											<li><i class="md-arrow-forward"></i>MALWARE EXPERT</li>
+											<li><i class="md-arrow-forward"></i>BACKUP MANAGEMENT</li>
+											<li><i class="md-arrow-forward"></i>BASH/SHELL SCRIPTING</li>
+											<li><i class="md-arrow-forward"></i>VIRTUALIZATION</li>
+										</ul>
+									</div> <!-- end .col-sm-6 -->
+									<div class="col-sm-6">
+										<ul class="list-icons purple bold-list">
+											<li><i class="md-arrow-forward"></i>DNS MANAGEMENT</li>
+											<li><i class="md-arrow-forward"></i>SSL CERTIFICATES</li>
+											<li><i class="md-arrow-forward"></i>MYSQL/MARIADB OPTIMIZATION</li>
+											<li><i class="md-arrow-forward"></i>MAIL SERVER BUILD</li>
+											<li><i class="md-arrow-forward"></i>PERFORMANCE & OPTIMIZATION</li>
+											<li><i class="md-arrow-forward"></i>WEB DEVELOPMENT</li>
+											<li><i class="md-arrow-forward"></i>SERVER MONITORING</li>
+											<li><i class="md-arrow-forward"></i>DETAILED DESCRIPTION</li>
+										</ul>
+									</div> <!-- end .col-sm-6 -->
+								</div> <!-- end .row -->
+							</div> <!-- end .col-sm-6 -->
+						</div> <!-- end .row -->
+						<div class="spacer"></div>
+						<h4>Language Skills</h4>
+						<div class="row">
+							<div class="col-sm-4">
+								<div class="circle-progress-wrapper clearfix">
+									<div class="circle-progress">
+										<input type="text" class="dial" value="90" data-color="#000000" data-from="0" data-to="90" />
+									</div> <!-- end .circle-progress -->
+									<div class="circle-progress-label-wrapper"><label class="circle-progress-label">English Advanced</label></div>
+								</div> <!-- end .circle-progress-wrapper -->
+							</div> <!-- end .col-sm-4 -->
+							<div class="col-sm-4">
+								<div class="circle-progress-wrapper clearfix">
+									<div class="circle-progress">
+										<input type="text" class="dial" value="95" data-color="#000000" data-from="0" data-to="95" />
+									</div> <!-- end .circle-progress -->
+									<div class="circle-progress-label-wrapper"><label class="circle-progress-label">Hindi Advanced</label></div>
+								</div> <!-- end .circle-progress-wrapper -->
+							</div> <!-- end .col-sm-4 -->
+							<div class="col-sm-4">
+								<div class="circle-progress-wrapper clearfix">
+									<div class="circle-progress">
+										<input type="text" class="dial" value="90" data-color="#000000" data-from="0" data-to="90" />
+									</div> <!-- end .circle-progress -->
+									<div class="circle-progress-label-wrapper"><label class="circle-progress-label">Punjabi Advanced</label></div>
+								</div> <!-- end .circle-progress-wrapper -->
+							</div> <!-- end .col-sm-4 -->
+						</div> <!-- end .row -->
+					</div> <!-- end .container -->
+				</section> <!-- end #section1 -->
+
+				<!-- Experience -->
+				<section id="section4">
+					<div class="container">
+						<h2>Years Experience</h2>
+						<div class="experience-timeline">
+							<div class="experience-block clearfix">
+								<div class="meta">
+									<span class="year">2016 - Current</span>
+									<span class="company">FREELANCER</span>
+								</div> <!-- end .meta -->
+								<div class="content">
+									<h5>FREELANCER – SERVER ADMINISTRATOR</h5>
+									<ul>
+										<li>Working to explore more knowledge and provide better support solution to clients / companies.</li>
+									</ul>
+								</div> <!-- end .content -->
+								<div class="icon">
+									<i class="ion-easel"></i>
+								</div> <!-- end .icon -->
+								<div class="line"></div>
+							</div> <!-- end .experience-block -->
+							<div class="experience-block clearfix">
+								<div class="meta">
+									<span class="year">OCT 2015 - JUN 2016</span>
+									<span class="company">XICOM TECHNOLOGIES, NEW DELHI</span>
+								</div> <!-- end .meta -->
+								<div class="content">
+									<h5>XICOM – SR. SYSTEM ADMINISTRATOR</h5>
+									<ul>
+										<li>Handling, Managing, Maintaining local and clients server both Linux, Windows</li>
+										<li>80+ physical and virtual servers in a mixed Linux and Windows environment.</li>
+										<li>Worked on IIS, filezilla server, SQL server installation etc.</li>
+										<li>Management of Amazon Web Services architecture like EC2, Route53, S3 etc.</li>
+										<li>Network Services: DNS/Bind, Samba, FTP, SSH, DHCP, HTTP etc.</li>
+										<li>Configuration and management of Subversion and Git.</li>
+										<li>Configuration and management of DHCP, DNS server, Backup server.</li>
+										<li>Accountable for rendering support for the Linux Systems &amp; maintaining uptime for all the systems as per the Customer Defined SLA’s.</li>
+										<li>Planning and managing hardware infrastructure of servers, desktops, and networking equipment based on growth plans.</li>
+										<li>Analyze, log, track complex software and hardware matters of significance pertaining to networking connectivity issues, printer, server, and application to meet business needs.</li>
+										<li>Ensuring fault free System Performance (Process, Load &amp; Disk Space).</li>
+										<li>Scripting and automation &amp; auto deployment.</li>
+										<li>Responsible for upgrading system, capacity planning and system management.</li>
+										<li>Designing and building servers as per project requirement.</li>
+										<li>Responsible for providing disaster recovery planning and execution for the Linux environment.</li>
+										<li>Documentation management if required by client.</li>
+										<li>Setup Vimbadmin mail server and Samba share for internal IT documentation.</li>
+										<li>Build and maintain the Linux based monitoring infrastructure (NAGIOS).</li>
+										<li>Health checkup of all the production servers, monitoring what’s up alerts on a routine basis.</li>
+										<li>Backup management via self-written Bash scripts &amp; via Penel provided Backup tools.</li>
+										<li>Installation, up-gradation and configuration of control panels like cPanel,Website Panel etc.</li>
+										<li>Migrated servers including cPanel/Plesk/Website Panel from outsourced hosting provider to internal servers.</li>
+										<li>Installation and configuration of Windows/Linux servers to host websites, Databases, Emails etc.</li>
+										<li>Working with Malware removal, server login restriction, Web security, Security auditing.</li>
+										<li>AWS EC2 server setup, S3 Storage Step, RDS, Cloudfront, CDN installation and configuration (Cloudflare, Max-CDN etc).</li>
+										<li>MySQL/MariaDB server (MyISAM/InnoDB :- optimization according to server’s configuration)</li>
+										<li>Mail Server building for sending and recieving mails (Exim, postfix, sendmail) setup mail client roundcube, squirelmail, Horde. Troubleshoot mail issues, configure mail for delivery in inbox.</li>
+										<li>Virtualization technology :- VMware VSphere Esxi</li>
+									</ul>
+								</div> <!-- end .content -->
+								<div class="icon">
+									<i class="ion-images"></i>
+								</div> <!-- end .icon -->
+								<div class="line"></div>
+							</div> <!-- end .experience-block -->
+							<div class="experience-block clearfix">
+								<div class="meta">
+									<span class="year">FEB 2014 - SEP 2015</span>
+									<span class="company">EMIZENTECH PVT. LTD. JAIPUR</span>
+								</div> <!-- end .meta -->
+								<div class="content">
+									<h5>EMIZENTECH – JUNIOR SERVER ADMINISTRATOR</h5>
+									<ul>
+										<li>Server administration of 50+ servers (Red Hat, Centos, Ubuntu).</li>
+										<li>Installation of different types of linux Distro.</li>
+										<li>Worked with WHM/Cpanel, Parallel Plesk,Nexcess,Godaddy etc.</li>
+										<li>Worked with Rackspace,Linode,Amazon EC2,Godaddy etc.</li>
+										<li>Configuring Apache/Nginx web servers, SSLs,Php.</li>
+										<li>Package installation Using “Yum” ,”rpms” and “Source”.</li>
+										<li>Worked with Git,Svn also on Bitbucket, Assembla version control system.</li>
+										<li>Varnish,Redis,Memcache,Pagespeed installation and configuration.</li>
+										<li>Server Optimization with different application.</li>
+										<li>Performance Tuning for WordPress,Magento based websites.</li>
+										<li>Created bash script for Automated backup of servers and monitoring servers.</li>
+										<li>Server Security with iptables,firewall,Clamscan,CSF,Fail2ban.</li>
+										<li>Worked with Sendmail,iRedMail,Exim,Postfix mail server.</li>
+										<li>Worked on VMware vSphere Hypervisor Virtualization.</li>
+										<li>Worked on Nagios Monitoring &amp; Cacti Monitering.</li>
+										<li>Muliple PHP version Controlling with phpbrew.</li>
+										<li>Git Server Setup with GitLab.</li>
+										<li>Github, Gitlab, Bitbucket auto deployment.</li>
+									</ul>
+								</div> <!-- end .content -->
+								<div class="icon">
+									<i class="ion-card"></i>
+								</div> <!-- end .icon -->
+							</div> <!-- end .experience-block -->
+						</div> <!-- end .experience-timeline -->
+					</div> <!-- end .container -->
+				</section> <!-- end #section1 -->
+
+				<!-- Education -->
+				<section id="section5">
+					<div class="container">
+						<h2>Educational Value</h2>
+						<div class="education clearfix">
+							<div class="item">
+								<div class="marker"></div>
+								<div class="content">
+									<span>GECB COLLEGE, BIKANER</span>
+									<h4>M.TECH</h4>
+								</div>
+								<div class="year">2012 - 2014</div>
+							</div> <!-- end item -->
+							<div class="item">
+								<div class="marker"></div>
+								<div class="content">
+									<span>YIT COLLEGE, JAIPUR</span>
+									<h4>B.TECH</h4>
+								</div>
+								<div class="year">2008 - 2012</div>
+							</div> <!-- end item -->
+							<div class="item">
+								<div class="marker"></div>
+								<div class="content">
+									<span>BSER, AJMER</span>
+									<h4>INTERMEDIATE</h4>
+								</div>
+								<div class="year">2008</div>
+							</div> <!-- end item -->
+							<div class="item">
+								<div class="marker"></div>
+								<div class="content">
+									<span>BSER, AJMER</span>
+									<h4>MATRICULATION</h4>
+								</div>
+								<div class="year">2006</div>
+							</div> <!-- end item -->
+							<div class="line"></div>
+						</div> <!-- end .education -->
+
+						<h2>Hobbies & Interest</h2>
+						<div class="row">
+							<div class="col-sm-2 col-sm-offset-1 col-xs-6">
+								<div class="icon-box">
+									<div class="icon"><i class="ion-easel"></i></div>
+									<h6>Web Research</h6>
+								</div> <!-- end .icon-box -->
+							</div> <!-- end .col-sm-2 -->
+							<div class="col-sm-2 col-xs-6">
+								<div class="icon-box">
+									<div class="icon"><i class="ion-ios-camera-outline"></i></div>
+									<h6>Photography</h6>
+								</div> <!-- end .icon-box -->
+							</div> <!-- end .col-sm-2 -->
+							<div class="col-sm-2 col-xs-6">
+								<div class="icon-box">
+									<div class="icon"><i class="ion-plane"></i></div>
+									<h6>Travelling</h6>
+								</div> <!-- end .icon-box -->
+							</div> <!-- end .col-sm-2 -->
+							<div class="col-sm-2 col-xs-6">
+								<div class="icon-box">
+									<div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
+									<h6>Book Reading</h6>
+								</div> <!-- end .icon-box -->
+							</div> <!-- end .col-sm-2 -->
+							<div class="col-sm-2 col-xs-6">
+								<div class="icon-box">
+									<div class="icon"><i class="ion-ios-musical-notes"></i></div>
+									<h6>Music</h6>
+								</div> <!-- end .icon-box -->
+							</div> <!-- end .col-sm-2 -->
+						</div> <!-- end .row -->
+					</div> <!-- end .container -->
+				</section> <!-- end #section1 -->
+
+				<!-- freelance -->
+				<section id="section6">
+					<div class="container">
+						<h2>FREELANCER PROFILES</h2>
+						<div class="freelance-timeline">
+							<div class="freelance-block clearfix">
+								<div class="meta">
+									<span class="company">DIRECT</span>
+								</div> <!-- end .meta -->
+								<div class="content">
+									<a href="#section7" class="available"><span>Contact Me Directly</span></a>
+								</div> <!-- end .content -->
+								<div class="icon">
+									<i class="ion-easel"></i>
+								</div> <!-- end .icon -->
+								<div class="line"></div>
+							</div> <!-- end .freelance-block -->
+							<div class="freelance-block clearfix">
+								<div class="meta">
+									<span class="company">FREELANCER</span>
+								</div> <!-- end .meta -->
+								<div class="content">
+									<a href="https://www.freelancer.com/affiliates/email/7442604/" class="available" target="_blank"><span>Hire Me On Freelancer</span></a>
+								</div> <!-- end .content -->
+								<div class="icon">
+									<i class="ion-easel"></i>
+								</div> <!-- end .icon -->
+								<div class="line"></div>
+							</div> <!-- end .freelance-block -->
+							<div class="freelance-block clearfix">
+								<div class="meta">
+									<span class="company">FIVERR</span>
+								</div> <!-- end .meta -->
+								<div class="content">
+									<a href="https://www.fiverr.com/voidead" class="available" target="_blank"><span>Hire Me On Fiverr</span></a>
+								</div> <!-- end .content -->
+								<div class="icon">
+									<i class="ion-easel"></i>
+								</div> <!-- end .icon -->
+								<div class="line"></div>
+							</div> <!-- end .freelance-block -->
+							<div class="freelance-block clearfix">
+								<div class="meta">
+									<span class="company">UPWORK</span>
+								</div> <!-- end .meta -->
+								<div class="content">
+									<a href="https://www.upwork.com/o/profiles/users/~01d1d8e352f2733398/" class="available" target="_blank"><span>Hire Me On Upwork</span></a>
+								</div> <!-- end .content -->
+								<div class="icon">
+									<i class="ion-easel"></i>
+								</div> <!-- end .icon -->
+								<div class="line"></div>
+							</div> <!-- end .freelance-block -->
+							<div class="freelance-block clearfix">
+								<div class="meta">
+									<span class="company">HUBSTAFF</span>
+								</div> <!-- end .meta -->
+								<div class="content">
+									<a href="https://talent.hubstaff.com/profiles/balvinder-singh" class="available" target="_blank"><span>Hire Me On Hubstaff</span></a>
+								</div> <!-- end .content -->
+								<div class="icon">
+									<i class="ion-easel"></i>
+								</div> <!-- end .icon -->
+								<div class="line"></div>
+							</div> <!-- end .freelance-block -->
+							<div class="freelance-block clearfix">
+								<div class="meta">
+									<span class="company">TRUELANCER</span>
+								</div> <!-- end .meta -->
+								<div class="content">
+									<a href="https://www.truelancer.com/freelancer/balvindersingh15" class="available" target="_blank"><span>Hire Me On Truelancer</span></a>
+								</div> <!-- end .content -->
+								<div class="icon">
+									<i class="ion-easel"></i>
+								</div> <!-- end .icon -->
+								<div class="line"></div>
+							</div> <!-- end .freelance-block -->
+							<div class="freelance-block clearfix">
+								<div class="meta">
+									<span class="company">WORKNHIRE</span>
+								</div> <!-- end .meta -->
+								<div class="content">
+									<a href="http://worknhire.com/Contractor/Profile/voidead" class="available" target="_blank"><span>Hire Me On WORKnHIRE</span></a>
+								</div> <!-- end .content -->
+								<div class="icon">
+									<i class="ion-easel"></i>
+								</div> <!-- end .icon -->
+								<div class="line"></div>
+							</div> <!-- end .freelance-block -->
+							<div class="freelance-block clearfix">
+								<div class="meta">
+									<span class="company">GURU</span>
+								</div> <!-- end .meta -->
+								<div class="content">
+									<a href="https://www.guru.com/freelancers/voidead" class="available" target="_blank"><span>Hire Me On Guru</span></a>
+								</div> <!-- end .content -->
+								<div class="icon">
+									<i class="ion-easel"></i>
+								</div> <!-- end .icon -->
+								<div class="line"></div>
+							</div> <!-- end .freelance-block -->
+						</div> <!-- end .freelance-timeline -->
+					</div> <!-- end .container -->
+				</section> <!-- end #section1 -->
+
+				<!-- Contact -->
+				<section id="section7">
+					<div class="container">
+						<h2>Get In Touch With Me</h2>
+						<div class="row">
+							<div class="col-sm-5">
+								<h5>Contact Address</h5>
+								<ul class="list-icons list-unstyled">
+									<li><i class="ion-ios-location-outline"></i>Address : Near Bhagat Singh Chowk, Ward No. 13 Sadul Shahar<br />Sri Ganganagar, Rajasthan, India, Pin Code : 335062</li>
+									<li><i class="ion-iphone"></i>Phone : +91-9636922286</li>
+									<li><i class="ion-ios-email-outline"></i>Email : <a href="mailto:bsingh.cs@gmail.com">bsingh.cs@gmail.com</a></li>
+									<li><i class="ion-ios-home-outline"></i>Website : <a href="https://balvinder.linuxtweaks.in">balvinder.linuxtweaks.in</a></li>
+								</ul>
+								<div class="social-icons">
+									<a href="https://www.facebook.com/bsingh.cs" class="social-icon" target="_blank"><i class="fa fa-facebook"></i></a>
+									<a href="https://github.com/voidead" class="social-icon" target="_blank"><i class="fa fa-github"></i></a>
+									<a href="https://www.instagram.com/bsdevgan" class="social-icon" target="_blank"><i class="fa fa-instagram"></i></a>
+									<a href="https://www.linkedin.com/in/bsdevgan" class="social-icon" target="_blank"><i class="fa fa-linkedin"></i></a>
+									<a href="https://twitter.com/im_balvinder" class="social-icon" target="_blank"><i class="fa fa-twitter"></i></a>
+								</div> <!-- end .social-icons -->
+								<div class="spacer"></div>
+							</div>
+							<div class="col-sm-7">
+								<h5>Contact Form</h5>
+								<form action="scripts/contact.php" method="post" class="form-horizontal contact-form">
+									<div class="form-group">
+										<label class="col-sm-2 control-label">Name</label>
+										<div class="col-sm-10">
+											<input type="text" class="contact-name" name="contact-name" />
+										</div> <!-- end .col-sm-10 -->
+									</div> <!-- end .form-group -->
+									<div class="form-group">
+										<label class="col-sm-2 control-label">Email</label>
+										<div class="col-sm-10">
+											<input type="email" class="contact-email" name="contact-email" />
+										</div> <!-- end .col-sm-10 -->
+									</div> <!-- end .form-group -->
+									<div class="form-group">
+										<label class="col-sm-2 control-label">Message</label>
+										<div class="col-sm-10">
+											<textarea name="contact-message" class="contact-message" rows="3"></textarea>
+										</div> <!-- end .col-sm-10 -->
+									</div> <!-- end .form-group -->
+									<div class="form-group">
+										<div class="col-sm-10 col-sm-offset-2">
+											<button type="submit" class="button solid-button purple">Send Message</button>
+										</div> <!-- end .col-sm-10 -->
+									</div> <!-- end .form-group -->
+									<div class="contact-loading alert alert-info form-alert">
+										<span class="message">Loading...</span>
+										<button type="button" class="close" data-hide="alert" aria-label="Close"><i class="fa fa-times"></i></button>
+									</div>
+									<div class="contact-success alert alert-success form-alert">
+										<span class="message">Success!</span>
+										<button type="button" class="close" data-hide="alert" aria-label="Close"><i class="fa fa-times"></i></button>
+									</div>
+									<div class="contact-error alert alert-danger form-alert">
+										<span class="message">Error!</span>
+										<button type="button" class="close" data-hide="alert" aria-label="Close"><i class="fa fa-times"></i></button>
+									</div>
+								</form> <!-- end contact-form -->
+								<div class="spacer"></div>
+							</div>
+						</div>
+						<div class="map" id="map"></div>
+					</div> <!-- end .container -->
+				</section> <!-- end #section1 -->
+
+			</div> <!-- end .sections-wrapper -->
+		</div> <!-- end .sections -->
+		
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="top">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-4">
+							<h4>Address</h4>
+							<p>Near Bhagat Singh Chowk, Ward No. 13, Sadul Shahar<br /> Sri Ganganagar, Rajasthan, India<br /> Pin Code : 335062</p>
+						</div> <!-- end .col-sm-4 -->
+						<div class="col-sm-4">
+							<h4>Connect</h4>
+							<div class="social-icons">
+									<a href="https://www.facebook.com/bsingh.cs" class="social-icon" target="_blank"><i class="fa fa-facebook"></i></a>
+									<a href="https://github.com/voidead" class="social-icon" target="_blank"><i class="fa fa-github"></i></a>
+									<a href="https://www.instagram.com/bsdevgan" class="social-icon" target="_blank"><i class="fa fa-instagram"></i></a>
+									<a href="https://www.linkedin.com/in/bsdevgan" class="social-icon" target="_blank"><i class="fa fa-linkedin"></i></a>
+									<a href="https://twitter.com/im_balvinder" class="social-icon" target="_blank"><i class="fa fa-twitter"></i></a>
+							</div> <!-- end .social-icons -->
+						</div> <!-- end .col-sm-4 -->
+						<div class="col-sm-4">
+							<h4>Contact</h4>
+							<p>Mob : +91-9636922286<br />Email : bsingh.cs@gmail.com<br />Skype : im_balvinder</p>
+						</div> <!-- end .col-sm-4 -->
+						<div class="line"></div>
+
+					</div> <!-- end .row -->
+				</div> <!-- end .container -->
+			</div> <!-- end .footer -->
+			<div class="bottom">Copyright &copy; LinuxTweaks. All Rights Reserved.</div> <!-- end .bottom -->
+		</footer> <!-- end .footer -->
+
+		<!-- jQuery -->
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<!-- Bootstrap -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Inview -->
+		<script src="js/jquery.inview.min.js"></script>
+		<!-- SmoothScroll -->
+		<script src="js/smoothscroll.js"></script>
+		<!-- jQuery Knob -->
+		<script src="js/jquery.knob.min.js"></script>
+		<!-- Owl Carousel -->
+		<script src="js/owl.carousel.min.js"></script>
+		<!-- Isotope -->
+		<script src="js/isotope.pkgd.min.js"></script>
+		<!-- Images Loaded -->
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<!-- google maps -->
+		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+		<!-- Scripts.js -->
+		<script src="js/scripts.js"></script>
+
+	</body>
+</html>
